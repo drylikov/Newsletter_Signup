@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Newsletter signup</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script type="module" src="index.js"></script>
+</head>
+<body>
+  <section>
+    <picture>
+      <source media="(min-width: 375px)" srcset="./assets/images/illustration-sign-up-desktop.png">
+      <img src="./assets/images/illustration-sign-up-mobile.svg">
+    </picture>
+    <div class="hero">
+      <h1>Stay updated!</h1>
+      <h2>Join 60,000+ products managers receiving monthly updates on:</h2>
+      <div class="list">
+        <div>
+          <img src="./assets/images/icon-list.svg">
+          <p>Product discovery and building what matters</p>
+        </div>
+        <div>
+          <img src="./assets/images/icon-list.svg">
+          <p>Measuring to ensure updates are a sucess</p>
+        </div>
+        <div>
+          <img src="./assets/images/icon-list.svg">
+          <p>And much more!</p>
+        </div>
+      </div>
+      <div class="input">
+        <div class="label">
+            <label for="email-input">Email address</label>
+          <div data-red="true">Valid email required</div>
+        </div>
+        <input type="text" placeholder="email@company.com" name="email-input" data-input="true">
+        <button type="button" data-submit>Subscribe to monthly newsletter</button>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
